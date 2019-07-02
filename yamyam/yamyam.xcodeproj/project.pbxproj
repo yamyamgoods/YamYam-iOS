@@ -12,6 +12,7 @@
 		70FF173622CB2F21000961C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FF173422CB2F21000961C6 /* Main.storyboard */; };
 		70FF173822CB2F22000961C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FF173722CB2F22000961C6 /* Assets.xcassets */; };
 		70FF173B22CB2F22000961C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FF173922CB2F22000961C6 /* LaunchScreen.storyboard */; };
+		70FF18BE22CB3262000961C6 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FF18BD22CB3262000961C6 /* KakaoOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		70FF173722CB2F22000961C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70FF173A22CB2F22000961C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70FF173C22CB2F22000961C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FF18BD22CB3262000961C6 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FF18BE22CB3262000961C6 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +57,7 @@
 		70FF172F22CB2F21000961C6 /* yamyam */ = {
 			isa = PBXGroup;
 			children = (
+				70FF18BD22CB3262000961C6 /* KakaoOpenSDK.framework */,
 				70FF173022CB2F21000961C6 /* AppDelegate.swift */,
 				70FF173222CB2F21000961C6 /* ViewController.swift */,
 				70FF173422CB2F21000961C6 /* Main.storyboard */,
@@ -284,6 +288,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H8YV5AK44;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yamyam",
+				);
 				INFOPLIST_FILE = yamyam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H8YV5AK44;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yamyam",
+				);
 				INFOPLIST_FILE = yamyam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
