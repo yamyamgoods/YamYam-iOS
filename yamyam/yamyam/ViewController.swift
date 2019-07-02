@@ -16,9 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func loginWithKakao(_ sender: Any) {
-        //simpleAlert(title: "알림", message: "안드로이드와 동일한 테스트 환경을 위해 카카오톡 로그인은 현재 잠시 중단되어있습니다")
-        //페이스북 열려있으면 닫기
-        
+    
         //이전 카카오톡 세션 열려있으면 닫기
         let session: KOSession = KOSession.shared();
         if session.isOpen() {
