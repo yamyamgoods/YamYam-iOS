@@ -19,6 +19,7 @@
   - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
   - [Kingfisher](https://github.com/onevcat/Kingfisher)
   - [SideMenu](https://github.com/jonkykong/SideMenu)
+  - [SwiftyGif](https://github.com/kirualex/SwiftyGif)
 
 ------
 
