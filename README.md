@@ -22,7 +22,7 @@
   - [SwiftyGif](https://github.com/kirualex/SwiftyGif)
 
 ------
-
+<!--
 ### 전체 기능
 
 - 베스트 탭
@@ -109,3 +109,4 @@
   | 굿즈 이름 검색   |             |               |
   | 스토어 이름 검색 |             |               |
 
+-->
